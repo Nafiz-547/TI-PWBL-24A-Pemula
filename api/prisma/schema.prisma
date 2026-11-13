@@ -11,3 +11,9 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+enum Role {
+  MEMBER
+  MENTOR
+  ADMIN
+}
